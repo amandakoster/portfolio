@@ -9,7 +9,7 @@
 
 * As a developer, I want to make a data model (object constructor) for my portfolio data, so that I can create a pattern for all of my work and push data to the DOM vs. disrupting raw data and coding everyone line by line.
 
-* As a visitor, I want the images to be responsive, so that content stays properly proportioned. 
+* As a visitor, I want the images to be responsive, so that content stays properly proportioned.
 
 * As a visitor, I want the viewport properly sized, so that content fits all the size I have available.
 
