@@ -1,76 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Amanda Koster</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/icons.css">
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  <link rel="stylesheet" href="styles/modules.css">
-  <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
-  <link rel="shortcut icon" type="image/png" href="icons/pig1.png"/>
-
-  
+	<meta charset="UTF-8">
+	<title>Amanda Koster</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="styles/normalize.css" rel="stylesheet">
+	<link href="styles/icons.css" rel="stylesheet">
+	<link href="styles/base.css" rel="stylesheet">
+	<link href="styles/layout.css" rel="stylesheet">
+	<link href="styles/modules.css" rel="stylesheet">
+	<link href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200" rel="icon" type="image/x-icon">
+	<link href="icons/pig1.png" rel="shortcut icon" type="image/png">
+	<script id="neighborhood-template" type="text/x-handlbars-template">
+	   <h1>{{title}}</h1>
+	   <p>{{category}}</p>
+	   {{{challenge}}}
+	   {{{results}}}
+	   {{{successFailure}}}
+	   {{{founded}}}
+	   {{{body}}}
+	</script>
 </head>
 <body>
-  <header class="site-header clearfix">
-    <section class="heading-group-h1">
-      <h1>
-        Amanda Koster
-      </h1>
-      <h2>The shocking power of programming &amp; content</h2>
-    </section>
-    <nav class="main-nav">
-      <link rel="stylesheet" href="https://i.icomoon.io/public/temp/ef6884b33e/UntitledProject/style.css">
-      <div class="fs1">
-      <span class="icon-menu"></span>
-      </div>
-      <ul>
-        <li class="tab" data-content="tabContent"><a href="#" data-tab="home">Home</a></li>
-        <li class="tab" data-content="tabContent"><a href="#" data-tab="about">About</a></li>
-        <li><a href="http://twitter.com/amandakoster" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/amandakoster" target="_blank" class="icon-github"> GitHub</a></li>
-      </ul>
-    </nav>
-    <section id="articles" class="tab-content">
-      <article class="clearfix" data-category="bacon">
-        <header>
-          <h1>Project 1</h1>
-          <div class="byline">
-            By <address><a href="http://www.amandakoster.com">Amanda Koster</a></address>
-            published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 171 days ago</time>
-          </div>
-  </header>
-  <main>
-
-        </header>
-    <section id="about" class="tab-content">
-      <header>
-        I'll blog on Medium and link it or feed it here somehow.
-      </header>
+		<nav class="main-nav">
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>
+					<a class="icon-twitter3" href="http://twitter.com/amandakoster" target="_blank"></a>
+				</li>
+				<li>
+					<a class="icon-github" href="http://github.com/amandakoster" target="_blank"></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<header class="site-header clearfix">
+		<section class="heading-group-h1">
       <section>
-        <h1>Some of my intrests:</h1>
-        <ul>
-          <li>Coding</li>
-          <li>Sharing what I've learned</li>
-          <li>Hanging with my family</li>
-          <li>Drinking with my neighbors</li>
-        </ul>
-      </section>
-    </section>
-  </main>
-  <footer>
-    <script>document.write(new Date().getFullYear())</script> &copy; Amanda Koster
-  </footer>
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script src="scripts/article.js"></script>
-  <scripts src="scripts/projects.js"></script>"
-  <scripts src="scripts/blog.js"></script>"
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+          <h1>Amanda Koster</h1>
+          <h2>The shocking power of programming &amp; content</h2>
+        </section>
+			<main>
+				<section id="neighborhoods"></section>
+			</main>
+		</section>
+	</header>
+	<footer>
+		<script>
+		document.write(new Date().getFullYear())
+		</script> &copy; Amanda Koster
+	</footer>
+	<script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" src="https://code.jquery.com/jquery-3.2.1.min.js">
+	</script> " "
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js">
+	</script>
 </body>
 </html>
