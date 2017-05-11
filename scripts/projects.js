@@ -1,25 +1,21 @@
-// Use good Object Oriented code: Create a constructor function for projects that contains properties appropriate for a portfolio project.
-
 'use strict';
 
 var projects = [];
 
 function Project (rawDataObject) {
-  this.title = rawDataObject.title;
-  this.category = rawDataObject.category;
-  this.author = rawDataObject.author;
-  this.authorUrl = rawDataObject.authorUrl;
-  this.challenge = rawDataObject.challenge;
-  this.approach = rawDataObject.approach;
-  this.results = rawDataObject.results;
-  this.successFailure = rawDataObject.successFailure;
-  this.publishedOn = rawDataObject.publishedOn;
-  this.body = rawDataObject.body;
-}
+  for (key in rawDataObject) {
+    this[key] = rawDataObject[key];
+  }
+};
+
+Project.prototype.toHtml = function() {
+  var template = $('#project-template').html();
+  var templateRender = Handlebars.compile(template);
+  return templateRender(this);
+};
 
 Project.prototype.toHtml = function() {
   var $newProject = $('article.template').clone();
-  console.log();
   $newProject.removeClass('template');
 
   if (!this.publishedOn) $newProject.addClass('draft');
