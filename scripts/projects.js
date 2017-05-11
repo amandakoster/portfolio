@@ -9,6 +9,10 @@ function Project (rawDataObject) {
   this.category = rawDataObject.category;
   this.author = rawDataObject.author;
   this.authorUrl = rawDataObject.authorUrl;
+  this.challenge = rawDataObject.challenge;
+  this.approach = rawDataObject.approach;
+  this.results = rawDataObject.results;
+  this.successFailure = rawDataObject.successFailure;
   this.publishedOn = rawDataObject.publishedOn;
   this.body = rawDataObject.body;
 }
