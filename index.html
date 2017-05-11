@@ -26,14 +26,12 @@
       <span class="icon-menu"></span>
       </div>
       <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+        <li class="tab" data-content="tabContent"><a href="#" data-tab="home">Home</a></li>
+        <li class="tab" data-content="tabContent"><a href="#" data-tab="about">About</a></li>
         <li><a href="http://twitter.com/amandakoster" target="_blank" class="icon-twitter3"> Twitter</a></li>
         <li><a href="http://github.com/amandakoster" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
     </nav>
-  </header>
-  <main>
     <section id="articles" class="tab-content">
       <article class="clearfix" data-category="bacon">
         <header>
@@ -42,6 +40,9 @@
             By <address><a href="http://www.amandakoster.com">Amanda Koster</a></address>
             published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 171 days ago</time>
           </div>
+  </header>
+  <main>
+
         </header>
     <section id="about" class="tab-content">
       <header>
@@ -61,5 +62,12 @@
   <footer>
     <script>document.write(new Date().getFullYear())</script> &copy; Amanda Koster
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="scripts/article.js"></script>
+  <scripts src="scripts/projects.js"></script>"
+  <scripts src="scripts/blog.js"></script>"
 </body>
 </html>
