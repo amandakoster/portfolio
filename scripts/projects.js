@@ -2,8 +2,8 @@
 
 var projects = [];
 
-function Project (rawDataObject) {
-  for (key in rawDataObject) {
+function Project(rawDataObject) {
+  for (var key in rawDataObject) {
     this[key] = rawDataObject[key];
   }
 };
@@ -14,5 +14,10 @@ Project.prototype.toHtml = function() {
   return templateRender(this);
 };
 
-dataset.forEach(function(projectObject) {
-  neighborhoods.push(new Project(projectObject));
+projectObject.forEach(function(project) {
+  projects.push(new Project(project));
+});
+
+projects.forEach(function(NewProjectObject) {
+  $('#projects').append(NewProjectObject.toHtml());
+});
