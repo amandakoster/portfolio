@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var projectObject = [
   {
@@ -6,19 +6,18 @@ var projectObject = [
     category:    'UX',
     author:      'Amanda Koster',
     projectUrl:   'http://www.salaamgarage.com',
-    challenge:   '<p>a whole bunch of text</p>'
-    successFailure: '<p>a whole bunch of text</p>'
+    challenge:   '<p>a whole bunch of text</p>',
+    results: '<p>a whole bunch of text</p>',
     body:        '<p>a whole bunch of text</p>'
   },
+
   {
     title:       'SalaamGarage',
     category:    'UX',
     author:      'Amanda Koster',
     projectUrl:   'http://www.salaamgarage.com',
-    challenge:   '<p>a whole bunch of text</p>'
-    results:    '<p>a whole bunch of text</p>'
-    successFailure:'<p>a whole bunch of text</p>'
-    publishedOn: 'some date',
+    challenge:   '<p>a whole bunch of text</p>',
+    results: '<p>a whole bunch of text</p>',
     body:        '<p>a whole bunch of text</p>'
   },
-]
+];
