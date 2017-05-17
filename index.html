@@ -14,7 +14,7 @@
 	<script id="project-template" type="text/x-handlbars-template">
 	            <h3>{{title}}</h3>
 	            <p>{{category}}</p>
-	          <p>{{author}}</p>
+	          	<p>{{author}}</p>
 	            {{{challenge}}}
 	            {{{results}}}
 	            {{{body}}}
@@ -42,11 +42,9 @@
 	</main>
 	<script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" src="https://code.jquery.com/jquery-3.2.1.min.js">
 	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js">
-	</script>
-	<script src="scripts/dataset.js">
-	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js">	</script>
 	<script src="scripts/projects.js">
 	</script>
+	<script>Project.fetchAll()</script>
 </body>
 </html>
