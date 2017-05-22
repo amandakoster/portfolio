@@ -1,0 +1,15 @@
+You'll find I added notes in the following Places:
+
+1) projects.js (at the very bottom),
+
+Obviously - like all of us, this is a work in prgress, but what I saw so far was clean. And that's a big plus because too often I have seen some code that looks like a mess of characters in no discernible order that leaves me wondering what the hell I am staring at, if that makes sense.
+
+Your Projects.JS file is clean, and free of unnecessary code. I can't offer much advice on it until we learn a few new things and possibly refactoring your code to make it even leaner at the end of the course.
+
+Your css files are also free of clutter, though I will admit, I am not treading into the files provided by a vendor mainly because - they know way more than we do about their code, ya know? Beyond that, simple testing was done to ensure base functionality and it went smoothly :)
+
+Your html is clean and has, as far as I notice, everything listed appropriately to run in the right order. I see you have a few vendor scripts already lined up for future efforts in your code and would like to see more of your site once it is nearly complete to get the full effect of your page.
+
+One side note - I notice you have your data listed twice. Is this on purpose or were you just trying to move it to handle introduction of new code?
+
+You also added your user stories already. Does this help when working on your code to have them immediately at hand when trying to remain 'on-point' while working?

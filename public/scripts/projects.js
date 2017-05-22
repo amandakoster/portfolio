@@ -43,3 +43,5 @@ Project.fetchAll = function() {
     })
   }
 }
+
+// You've made great use of the lessons the class has taught, without having unneccessary code lying about. At this time, I can't recommend any changes to this block of code, until we are a bit more experienced in ways to refactor our code to a more lean and mean chunk. Overall, great work here. - T.Jay
