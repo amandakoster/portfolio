@@ -21,6 +21,10 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.fa fa-twitter {
+	color: black;
+}
+
 .icon-home:before {
 	content: "\e908";
 }
