@@ -6,7 +6,7 @@ function Project(rawDataObject) {
   for (var key in rawDataObject) {
     this[key] = rawDataObject[key];
   }
-};
+}
 Project.prototype.toHtml = function() {
   var template = $('#project-template').html();
   var templateRender = Handlebars.compile(template);
