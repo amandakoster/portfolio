@@ -26,8 +26,13 @@ Project.prototype.toHtml = function() {
   return templateRender(this);
 };
 
+Project.all = rawData.map(funciton(ele) {
+  return new Project(ele)
+};
+
+
+})
 //Controller
-//refractored -works!!
 projects.forEach = (NewProjectObject) => $('#projects').append(NewProjectObject.toHtml);
 
 // OLD WAY
@@ -35,22 +40,22 @@ projects.forEach = (NewProjectObject) => $('#projects').append(NewProjectObject.
 //   $('#projects').append(NewProjectObject.toHtml());
 // });
 
-
 Project.all = [];
-
 //Models
 //Refractor - broken. Can I have 2 arrow functions?
 // Project.loadAll = (rawData) => rawData.forEach(ele) => Project.all.push(ele);
 
 //OLD WAY
 Project.loadAll = function(rawData){
-  rawData.forEach(function(ele) {
-    Project.all.push(new Project(ele))
+  // rawData.forEach(function(ele) {
+  //   Project.all.push(new Project(ele))
+  // })
+  Project.all = rawData.map(function(ele) {
+    return new Project(ele)
   })
 }
 
 //Models
-//Refractor works!! Though ... not seeing how to refractor this more
 Project.fetchAll = () => {
   if (localStorage.rawData) {
     let rawData = (JSON.parse(localStorage.rawData))
