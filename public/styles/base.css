@@ -21,7 +21,9 @@ h3 {
 body {
 	margin-top: 1em;
 	font-size: 100%;
-	color: #313131;
+	/*color: #313131;*/
+	color:#333;
+	background:#eee;
 	max-width: 960px;
 	margin-left: 4em;
 }
