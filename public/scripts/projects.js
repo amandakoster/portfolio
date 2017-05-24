@@ -11,15 +11,6 @@ function Project(rawDataObject) {
     this[key] = rawDataObject[key];
   }
 }
-
-//refractored - broken
-// Project.prototype.toHtml = () => {
-//   let template = $('#project-template').html();
-//   let templateRender = Handlebars.compile(template);
-//   return templateRender(this);
-// };
-
-// OLD WAY
 Project.prototype.toHtml = function() {
   var template = $('#project-template').html();
   var templateRender = Handlebars.compile(template);
