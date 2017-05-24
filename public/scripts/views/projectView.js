@@ -1,0 +1,1 @@
+$('#projects').append(newProject.toHtml());
