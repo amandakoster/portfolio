@@ -1,1 +1,1 @@
-$('#projects').append(newProject.toHtml());
+$('#projects').append(app.newProject.toHtml());
