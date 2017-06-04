@@ -2,9 +2,9 @@
 var app = app || {};
 
 (function(module) {
-  const repoController = {};
+  const aboutController = {};
 
-  repoController.index = () => {
+  aboutController.index = () => {
     $('#about').show().siblings().hide();
     app.repos.requestRepos(app.repoView.index);
   };
