@@ -23,17 +23,19 @@
 	</script>
 </head>
 <body>
+	<header class="site-header clearfix">
 	<nav class="main-nav">
         <div class="icon-menu"></div>
         <ul>
           <li class="tab" data-content="articles"><a href="/" class="icon-home"> Home</a></li>
-          <li class="tab" data-content="about"><a href="/about" class="icon-address-book"> About</a></li>
+          <li class="tab" data-content="github"><a href="/github" class="icon-address-book"> About</a></li>
           <li><a href="https://twitter.com/amandakoster" target="_blank" class="icon-twitter3"> Twitter</a></li>
           <li><a href="https://github.com/amandakoster" target="_blank" class="icon-github"> GitHub</a></li>
         </ul>
+			</header>
 	<section>
 		<h1>Amanda Koster</h1>
-			<header>I make visual sence of mental spaghetti.</header>
+			<h2>I make visual sence of mental spaghetti.</h2>
 	</section>
 	<main>
 		<section id="github" class="tab-content">
@@ -42,6 +44,12 @@
 					<li>Coding</li>
 					<li>Sharing what I've learned</li>
 					<li>Hanging with my family</li>
+				</ul>
+		</section>
+		<section id="projects" class="tab-content">
+			<h3>Some of my Projects:</h3>
+				<ul>
+					<li></li>
 				</ul>
 		</section>
 	</main>
@@ -55,7 +63,9 @@
 <script src="/vendor/scripts/page.js"></script>
 <script src="/scripts/models/github.js"></script>
 <script src="/scripts/views/githubView.js"></script>
+<script src="/scripts/views/homeView.js"></script>
 <script src="/scripts/controllers/githubController.js"></script>
+<script src="/scripts/controllers/homeController.js"></script>
 <script src="/scripts/controllers/routes.js"></script>
 </body>
 </html>
